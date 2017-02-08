@@ -7,14 +7,18 @@ h1, h2, h3 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
+li {
+	border-right: 1px grey solid;
+}
+
 .git {
 	width: 60px;
 	float: left;
 	margin-left: 10px;
 }
 
-.navbar-brand {
-	color: teal;
+.name {
+	color:#4aaaa5;
 	background-color: white;
 }
 
@@ -23,20 +27,37 @@ h1, h2, h3 {
 		background-color: white;
 	 }
 
-.jumbotron {	
-
-	background-color: white;
-
-}
-
-.img-responsive git {
-	width: 200px;
-}
-
 form {
 	width: 60% ;
 }
 
 .line {
 	color: #4aaaa5;
+	border-bottom: 1px solid gray;
+}
+
+.navbar-fixed-bottom
+{
+	background-color: #666666;
+	border-top: 10px solid #4aaaa5;
+	text-align: center;
+	color: white;
+	font-family: serif;
+}
+
+.navbar-brand {
+	background-color: #4aaaa5;
+	color: white;
+	margin-left: 10%;
+
+}
+
+.panel-heading {
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.box {
+	background-color: white;
+
 }
