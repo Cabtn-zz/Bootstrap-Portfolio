@@ -11,9 +11,17 @@ li {
 	border-right: 1px grey solid;
 }
 
+p {
+	line-height: 150%;
+}
+
 footer {
 	margin-top: 50px;
 }
+.container-fluid {
+	background-color: white;
+}
+
 
 .name {
 	color:#4aaaa5;
@@ -26,10 +34,10 @@ footer {
 }
 
 
-.navbar navbar-default
-	{ 
-		background-color: white;
-	 }
+.navbar-default .navbar-brand {
+	color: black;
+	font-family: 'Georgia', Times, Times New Roman, serif;;
+}
 
 form {
 	width: 60% ;
@@ -65,6 +73,7 @@ form {
 .box {
 	background-color: white;
 	border-radius: 5px;
+	padding-top: 10px;
 
 }
 
